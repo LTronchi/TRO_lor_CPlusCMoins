@@ -41,7 +41,7 @@ int main(void) {
         } while (proposition != nombreMystere);
 
         printf("\nVeux-tu rejouer ? (o/n) : ");
-        scanf_s(" %c", &rejouer, 1);  // ✅ version sécurisée pour un caractère
+        scanf_s(" %c", &rejouer, 1);  // 
     }
 
     printf("\nMerci d'avoir joué ! A bientôt !\n");
